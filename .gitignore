@@ -1,0 +1,121 @@
+# ========================================
+# PYTHON
+# ========================================
+__pycache__/
+*.py[cod]
+*.pkl
+*.pickle
+*.pyo
+*.pyd
+*.log
+
+# Virtual environments
+env/
+venv/
+.venv/
+*.egg-info/
+
+# Conda
+conda-meta/
+*.conda
+*.yaml
+
+# Builds
+build/
+dist/
+
+# ========================================
+# OS / IDE FILES
+# ========================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# ========================================
+# JUPYTER
+# ========================================
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# ========================================
+# ENV / SECRETS
+# ========================================
+.env
+.env.*
+.envrc
+*.key
+*apikey*
+*secret*
+*.token
+*.jsonl
+memory_log.jsonl
+
+# ========================================
+# CHROMA VECTOR DATABASE  (VERY IMPORTANT)
+# ========================================
+chroma_store/
+chroma/
+*.sqlite3
+*.db
+*.parquet
+*.npy
+*.bin
+*.h5
+*.btree
+index/
+
+# Prevent accidental large embeddings
+**/chroma_store/**
+**/*.sqlite3
+**/*.parquet
+
+# ========================================
+# UPLOADED / RAW DATASETS
+# ========================================
+data/
+docs/*.xml
+docs/MedQuAD/
+*.zip
+*.tar
+*.gz
+*.7z
+
+# Generated text files
+docs/*.txt
+
+# ========================================
+# MODEL CACHE (HUGGINGFACE + ST)
+# ========================================
+huggingface/
+hf_cache/
+models/
+sentence-transformers/
+cache/
+transformers_cache/
+transformers/
+
+# Large ML files
+*.safetensors
+
+# ========================================
+# STREAMLIT
+# ========================================
+.streamlit/
+*.db
+
+# ========================================
+# LOGS
+# ========================================
+logs/
+*.out
+*.err
+*.log
+
+# ========================================
+# TEMP
+# ========================================
+tmp/
+temp/
+*.tmp

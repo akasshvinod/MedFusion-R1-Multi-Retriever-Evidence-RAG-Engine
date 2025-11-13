@@ -1,0 +1,43 @@
+# Core LangChain / OpenRouter / LLM
+langchain==1.0.0
+langchain-openai==1.0.0
+langchain-huggingface==1.0.0
+langchain-chroma==1.0.0
+langchain-community==0.6.0
+
+# Vector DB and storage
+chromadb==0.4.0
+
+# Embeddings & models
+sentence-transformers==2.2.2
+transformers>=4.30.0
+
+# Deep learning (see GPU install notes below)
+# leave torch out here — install via the command recommended below for CUDA compatibility
+# torch
+# torchvision
+# torchaudio
+
+# FAISS (choose CPU or GPU as needed) — install via pip or conda below
+# faiss-cpu
+# faiss-gpu
+
+# Utilities
+python-dotenv>=1.0.0
+pymed2>=0.4.6
+tqdm>=4.64.0
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Web / Frontend
+streamlit>=1.24.0
+
+# Dev / Notebook
+ipython
+jupyterlab
+
+# Optional (if you use sentencepiece tokenizers)
+sentencepiece
+
+# Logging / formatting
+python-json-logger
