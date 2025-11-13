@@ -1,7 +1,7 @@
-# 🧠 MedFusion-R1: Multi-Retriever Evidence RAG Engine 
+# 🧠 MedIntel: Multi-Source Medical RAG System
 **A Production-Ready Medical AI System using DeepSeek R1, ChromaDB, PubMed, Wikipedia, and LangChain v1.x**
 
-**MedFusion-R1 is a professional-grade Medical RAG Engine designed to retrieve, fuse, and reason over multiple medical knowledge sources**
+**MedIntel is a professional-grade Medical RAG Engine designed to retrieve, fuse, and reason over multiple medical knowledge sources**
 
 This project implements a **high-accuracy medical RAG system** combining:
 
